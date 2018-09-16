@@ -1,0 +1,159 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eee;
+}
+
+nav h1 {
+    margin: 0;
+    line-height: 50px;
+    display: inline-block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin: 0 auto;
+    min-width: 350px;
+    background: white;
+    box-shadow: 0 0 5px 0px #00000038;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #38acff;
+    padding: 0 25px;
+    box-sizing: border-box;
+    color: white;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    line-height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+}
+
+section.content {
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    margin: 25px 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    outline: 0;
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: block;
+}
+
+input[type="submit"] {
+    background: #38acff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header {
+    height: 50px;
+    background: #eee;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    line-height: 50px;
+}
+
+header a {
+    float: right;
+    line-height: 50px;
+    color: black;
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.users div {
+    flex: 1;
+    max-width: 30%;
+    min-width: 30%;
+    box-sizing: border-box;
+    margin: 5px 1%;
+    text-align: center;
+    background: #38acff;
+}
+
+.users div a {
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.posts div {
+    flex: 1;
+    max-width: 30%;
+    min-width: 30%;
+    box-sizing: border-box;
+    margin: 5px 1%;
+    text-align: center;
+    background: #38acff;
+    padding: 5px;
+}
+
+.posts div img {
+    width: 100%;
+}
+
+.posts div p {
+    color: white;
+    font-size: 14px;
+    margin: 5px 0 0;
+}
